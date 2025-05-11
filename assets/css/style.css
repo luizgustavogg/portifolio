@@ -590,6 +590,10 @@ section {
   text-align: center;
 }
 
+.techicons{
+  gap: 100px;
+}
+
 .Tech img {
   width: 60px;
   transition: all 0.4s ease-in-out;
@@ -604,6 +608,11 @@ section {
 }
 
 @media (max-width: 768px) {
+  .techicons{
+    flex-direction: column;
+    gap: 30px;
+  }
+
   .Tech img {
     max-width: 40%;
   }
@@ -1028,6 +1037,7 @@ section {
   color: #f9fcfe;
   font-size: 14px;
   margin-bottom: 0;
+  max-width: 320px;
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link,
